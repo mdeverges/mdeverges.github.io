@@ -1,0 +1,39 @@
+body {
+	background-color: #00b2b2;
+	}
+
+#top{
+	color: #007272;
+	background: #a7ffff;
+	height: 125px;
+	text-align: left;
+	margin-top: 5px;
+	font-family: "Rockwell";
+	font-size: 100px;
+	border-style: outset;
+}
+
+
+#slogan{
+	color: #007272;
+	background: #a7ffff;
+	font-family: "Rockwell";
+	font-style: italic;
+	font-size: 40px;
+	border-style: outset;
+}
+
+#infofirst{
+	color: #00fefe;
+	font-family: "Arial";
+	font-size: 25px;
+}
+
+
+ul {
+	color: #00fefe;
+	font-family: "Arial";
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
