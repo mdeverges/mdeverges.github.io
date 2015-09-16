@@ -13,6 +13,9 @@ body {
 	border-style: outset;
 }
 
+{
+	img float: right;
+}
 
 #slogan{
 	color: #007272;
