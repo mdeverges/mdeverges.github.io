@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300|Josefin+Slab);
-
+@import url(https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Oswald:400,700,300|Josefin+Slab);
 body {
 	background-color: #00b2b2;
 	}
@@ -11,21 +10,39 @@ body {
 	font-family: "Josefin Slab";
 	font-size: 20px;
 }
+a:link {
+	display: inline-block;
+	width: 100px;
+	padding: 4px;
+	float: right;
+}
 
 #main {
 	color: #a7ffff;
 	font-family: "Oswald";
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	width: 450px;
 	float: left;
-	padding: 25px 10px 100px 150px;
+	padding: 0px 0px 100px 150px;
 }
 
 h1
 {
 	font-size: 40px;
-	font-weight: 
+	font-weight: 900;
 	line-height: 1.618;
+}
+
+h2
+{
+	font-size: 25px;
+	font-weight: 400;
+}
+
+h3
+{
+	font-weight: 100;
+
 }
 
 #footer
@@ -34,6 +51,7 @@ h1
 	padding: 30px 0px 0px 0px;
 	font-family: "Josefin Slab";
 	color: #00fefe;
+	float: center;
 }
 
 #contact {
