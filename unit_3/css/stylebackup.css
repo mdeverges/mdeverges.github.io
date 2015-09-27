@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Titillium+Web:300);
+
+body {
+	background-color: #00b2b2;
+	}
+
+#menu li {
+	display: inline;
+	float: right;
+	color: #00fefe;
+	font-family: "Arial";
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#top{
+	margin: 0px;
+	color: #007272;
+	background: #a7ffff;
+	height: 125px;
+	text-align: left;
+	margin-top: 5px;
+	font-family: "Fontdiner Swanky";
+	font-size: 100px;
+	border-style: outset;
+	display: inline-block;
+}
+
+
+#slogan{
+	margin: 0px;
+	color: #007272;
+	background: #a7ffff;
+	text-align: right;
+	font-family: "Titillium";
+	font-size: 40px;
+	border-style: outset;
+}
+
+#infofirst{
+	padding-left: 18px;
+	color: #00fefe;
+	font-family: "Arial";
+	font-size: 25px;
+}
+
+
+ul {
+	color: #00fefe;
+	font-family: "Arial";
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+footer {
+	color: #007272;
+	font-family: "Rockwell";
+	font-size: 10px;
+}
+
+
