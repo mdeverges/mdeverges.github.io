@@ -1,70 +1,50 @@
 @import url(https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Oswald:400,700,300|Josefin+Slab);
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #00b2b2;
-	}
-
-#menu li {
-	display: inline;
-	float: right;
-	color: #00fefe;
-	font-family: "Josefin Slab";
-	font-size: 20px;
-}
-a:link {
-	display: inline-block;
-	width: 100px;
-	padding: 4px;
-	float: right;
-}
-
-#main {
 	color: #a7ffff;
-	font-family: "Oswald";
-	letter-spacing: 3px;
+	font-family: 'Oswald', sans-serif;
+	font-size:16px;
+}
+nav {
+	float:right;
+}
+nav a {
+	display: inline-block;
+	color: #00fefe;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.25em;
+}
+main {
 	width: 450px;
-	height: 200px;
 	float: left;
-	padding: 0px 0px 100px 150px;
+	padding: 0 0 6em 10em;
 }
-
-h1
-{
-	font-size: 40px;
-	font-weight: 900;
-	line-height: 1.618;
-}
-
-h2
-{
-	font-size: 25px;
-	font-weight: 400;
-}
-
-h3
-{
-	font-weight: 100;
-}
-
-ul
-{
-	padding-left: 0;
-}
-
-#footer
-{
-	font-size: 12px;
-	padding: 50px 0px;
-	font-family: "Josefin Slab";
+footer {
+	font-size: 1em;
+	padding: 3em 0;
+	font-family: 'Josefin Slab', serif;
 	color: #00fefe;
 	float: center;
 }
-
-#contact {
-	float: left;
-
+h1 {
+	font-size: 2.5em;
+	font-weight: 700;
 }
 
-#fine {
-	float: right;
+h2 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+h3 {
+	font-weight: 100;
+}
+
+ul {
+	list-style-type:none;
+}
+img {
+	width:20em;
 }
 
