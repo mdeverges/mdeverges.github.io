@@ -14,21 +14,20 @@ nav a {
 	color: #00fefe;
 	font-family: 'Josefin Slab', serif;
 	font-size: 1.25em;
+	margin: 1em;
 }
 main {
-<<<<<<< HEAD
 	float: left;
 	padding: 5em 1em 0 10em;
 }
 footer {
 	font-size: 1em;
 	padding-top: 4em; 
-	padding-left: 40%;
+	padding-left: 70%;
 	padding-bottom: 0;
 	font-family: 'Josefin Slab', serif;
 	color: #00fefe;
-	margin: auto;
-	position: absolute;
+	text-align: right;
 }
 .clearfix {
 	position: relative;
@@ -50,40 +49,11 @@ h3 {
 }
 
 ul {
-	list-style-type:none;
-	width: 450px;
-	float: left;
-	padding: 0 0 6em 10em;
-}
-footer {
-	font-size: 1em;
-	padding: 3em 0;
-	font-family: 'Josefin Slab', serif;
-	color: #00fefe;
-	float: center;
-}
-h1 {
-	font-size: 2.5em;
-	font-weight: 700;
+	list-style-type: none;
+	line-height: 2em;
 }
 
-h2 {
-	font-size: 1.5em;
-	font-weight: 400;
-}
-
-h3 {
-	font-weight: 100;
-}
-
-ul {
-	list-style-type:none;
-}
-img {
-	width:20em;
->>>>>>> origin/master
-}
 
 .kitty {
-	padding-top: 3em;
+	padding-top: 4.5em;
 }
