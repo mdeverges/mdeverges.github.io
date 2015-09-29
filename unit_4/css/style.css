@@ -42,18 +42,10 @@ h2 {
 	font-size: 1.5em;
 	font-weight: 400;
 }
-
-h3 {
-	font-weight: 300;
-	line-height: 1.618px;
-}
-
 ul {
 	list-style-type: none;
 	line-height: 2em;
 }
-
-
 .kitty {
 	padding-top: 4.5em;
 }
