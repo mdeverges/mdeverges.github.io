@@ -17,14 +17,15 @@ nav a {
 }
 main {
 	float: left;
-	padding: 0 0 6em 10em;
+	padding: 5em 1em 0 10em;
 }
 footer {
 	font-size: 1em;
-	padding: 3em 0;
+	padding-top: 4em; 
+	padding-left: 40%;
+	padding-bottom: 0;
 	font-family: 'Josefin Slab', serif;
 	color: #00fefe;
-	width: 50%;
 	margin: auto;
 	position: absolute;
 }
@@ -43,7 +44,8 @@ h2 {
 }
 
 h3 {
-	font-weight: 100;
+	font-weight: 300;
+	line-height: 1.618px;
 }
 
 ul {
@@ -51,6 +53,5 @@ ul {
 }
 
 .kitty {
-	float:right;
-	padding-right: 500px;
+	padding-top: 3em;
 }
