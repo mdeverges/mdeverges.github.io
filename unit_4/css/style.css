@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Oswald:400,700,300|Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Josefin+Slab);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #00b2b2;
@@ -17,12 +17,12 @@ nav a {
 	margin: 1em;
 }
 main {
-	float: left;
-	padding: 5em 1em 0 10em;
+	padding: 4em 1em 0 15em;
 }
 footer {
 	font-size: 1em;
 	margin-right: 1em;
+	margin-bottom: .5em;
 	padding-top: 4em; 
 	padding-left: 70%;
 	padding-bottom: 0;
@@ -46,7 +46,9 @@ h2 {
 ul {
 	list-style-type: none;
 	line-height: 2em;
+	font-weight: 300;
 }
 .kitty {
-	padding-top: 4.5em;
+	padding-top: 1em;
+	padding-left: 15em;
 }
