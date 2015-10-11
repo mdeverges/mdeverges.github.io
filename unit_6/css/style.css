@@ -12,10 +12,12 @@ body{
 nav a {
 	display: inline-block;
 	color: #000;
+  background-color: #c1e0da;
 	font-family: "Alegreya", serif;
 	font-size: 1.25em;
-  padding: 1em;
+  padding: 1.5em;
 }
+
 
 #logo {
   font-family: "Cabin", sans-serif;
@@ -26,7 +28,7 @@ nav a {
 
 .box{
   background-color:black;
-  color:white;
+  color: #C1e0da;
   width:200px;
   height:200px;
   margin:25px;
