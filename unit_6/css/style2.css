@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,500,500italic,700,600italic,700italic|Alegreya:400,400italic,700,700italic,900,900italic);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+  font-size:12px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+}
+
+nav {
+	float:right;
+}
+
+nav a {
+	display: inline-block;
+	color: #000;
+	font-family: "Alegreya", serif;
+	font-size: 1.25em;
+  padding: 1em;
+}
+
+#about {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: .5em;
+}
+
+.box{
+  background-color:black;
+  color:white;
+  width:200px;
+  height:200px;
+  margin:auto;
+  float:left;
+}
+
+.aboutmiddle {
+  width:200px;
+  height:200px;
+  margin: auto;
+  float:left;  
+}
+
+.designhome {
+  width:200px;
+  height:200px;
+  margin: auto;
+  float:left;
+}
+
+.photohome {
+  width:200px;
+  height:200px;
+  margin: auto;
+  float:left;
+}
+
+.webhome {
+  width:200px;
+  height:200px;
+  margin: auto;
+  float:left;
+}
+
+#wrapper{
+  width:750px;
+  margin:auto;
+}
+
+.clearfix:after{
+  display: block;
+  visibility:hidden;
+  content:' ';
+  clear:both;
+}
