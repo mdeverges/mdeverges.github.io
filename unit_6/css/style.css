@@ -8,9 +8,8 @@ body{
 }
 
 
-
 nav a {
-	display: inline-block;
+	display: block;
 	color: #000;
   background-color: #c1e0da;
 	font-family: "Alegreya", serif;
@@ -29,35 +28,35 @@ nav a {
 .box{
   background-color:black;
   color: #C1e0da;
-  width:200px;
-  height:200px;
-  margin:25px;
+  width:300px;
+  height:300px;
+  margin:5px;
   float:left;
 }
 
 .designhome {
-  width:200px;
-  height:200px;
+  width:300px;
+  height:300px;
   margin: auto;
   float:left;
 }
 
 .photohome {
-  width:200px;
-  height:200px;
+  width:300px;
+  height:300px;
   margin: auto;
   float:left;
 }
 
 .webhome {
-  width:200px;
-  height:200px;
+  width:300px;
+  height:300px;
   margin: auto;
   float:left;
 }
 
 #wrapper{
-  width:750px;
+  width:930px;
   margin:auto;
 }
 
