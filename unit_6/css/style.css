@@ -2,14 +2,19 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body{
-  font-size:12px;
+  font-size: 12px;
   font-family: "Cabin", sans-serif;
   font-weight: 400;
 }
 
+nav {
+  display: block;
+  background-color: #c1e0da;
+  float: right;
+}
 
 nav a {
-	display: block;
+	display: inline-block;
 	color: #000;
   background-color: #c1e0da;
 	font-family: "Alegreya", serif;
@@ -17,13 +22,11 @@ nav a {
   padding: 1.5em;
 }
 
-
 #logo {
   font-family: "Cabin", sans-serif;
   font-weight: 700;
   font-size: 2em;
 }
-
 
 .box{
   background-color:black;
@@ -58,6 +61,7 @@ nav a {
 #wrapper{
   width:930px;
   margin:auto;
+  padding-top: 100px;
 }
 
 .clearfix:after{
