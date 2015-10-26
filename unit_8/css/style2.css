@@ -15,6 +15,7 @@ nav a {
 	font-size: 1.25em;
 	margin: 1em;
 }
+
 main {
 	padding: 4em 1em 0 15em;
 }
@@ -53,6 +54,10 @@ ul {
 	padding-left: 15em;
 }
 
+.charlienav {
+	display: none;
+}
+
 @media only screen and (max-width: 480px) {
 
 	nav {
@@ -73,23 +78,44 @@ ul {
 		font-weight: Bold 700;
 		background-color: #fff;
 		float: right;
+		padding-bottom: 1em;
 	}
+
 	main {
-		padding: .25em;
+	padding: 4em 1em 0 5em;
 	}
+
 	h1 {
 		letter-spacing: .25em;
 		font-size: 5em;
 		line-height: 1em;
 	}
+
 	ul {
 		display: none;
 	}
+
 	.kitty {
-		padding: 0 .25em .25em 0;
+		padding: .5em 1em 0 7em;
 	}
-	footer {
-		padding-left: none;
+
+	.charlie {
+		display: none;
+	}
+		
+	.charlienav {
+		display: initial;
 		float: left;
+		width: 5em;
+		padding-top: 1em;
+		padding-left: 1em;
+	}
+
+	footer {
+		font-size: 1em;
+		margin-right: 0;
+		margin-bottom: .5em;
+		padding: 0;
+		text-align: center;
 	}
 }
