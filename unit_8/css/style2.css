@@ -69,15 +69,16 @@ ul {
 	}
 
 	nav a {
-		margin: 0 .5em .5em 0em;
+		margin-bottom: .25em;
+		margin-top: .25em;
 		text-align: right;
-		width: 50%;
 		height: .75em; 
-		line-height: 1em;
 		color: #00b2b2;
 		font-weight: Bold 700;
 		float: right;
 		padding-bottom: 1em;
+		padding-left: 2em;
+
 	}
 
 	main {
@@ -88,6 +89,7 @@ ul {
 		letter-spacing: .25em;
 		font-size: 5em;
 		line-height: 1em;
+		padding-top: 2em;
 	}
 
 	ul {
@@ -95,7 +97,7 @@ ul {
 	}
 
 	.kitty {
-		padding: .5em 1em 0 7em;
+		padding: 1em 1em 0 5em;
 	}
 
 	.charlie {
@@ -106,8 +108,8 @@ ul {
 		display: initial;
 		float: left;
 		width: 5em;
-		padding-top: 1em;
-		padding-left: 1em;
+		padding-top: .5em;
+		padding-bottom: .5em;
 	}
 
 	footer {
