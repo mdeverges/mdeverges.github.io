@@ -70,13 +70,12 @@ ul {
 
 	nav a {
 		margin: 0 .5em .5em 0em;
-		text-align: left;
+		text-align: right;
 		width: 50%;
 		height: .75em; 
 		line-height: 1em;
 		color: #00b2b2;
 		font-weight: Bold 700;
-		background-color: #fff;
 		float: right;
 		padding-bottom: 1em;
 	}
