@@ -60,17 +60,17 @@ ul {
 		background-color: #a7ffff;
 		font-size: 2em;
 		padding-bottom: 0em;
+		margin-top: .5em;
 	}
 
 	nav a {
 		margin: 0 .5em .5em 0em;
-		padding: 0 0 0 .25em;
 		text-align: left;
 		width: 50%;
 		height: .75em; 
 		line-height: 1em;
 		color: #00b2b2;
-		font-weight; Bold 700;
+		font-weight: Bold 700;
 		background-color: #fff;
 		float: right;
 	}
@@ -79,7 +79,7 @@ ul {
 	}
 	h1 {
 		letter-spacing: .25em;
-		font-size: 4em;
+		font-size: 5em;
 		line-height: 1em;
 	}
 	ul {
