@@ -20,8 +20,8 @@ nav a {
 }
 
 main {
-	width: 60%;
 	margin: auto;
+	width: 60%;
 }
 
 footer {
@@ -87,7 +87,6 @@ ul {
 		width: 90%;
 		margin: auto;
 	}
-}
 
 .clearfix:after {
 	visibility: hidden;
@@ -119,7 +118,7 @@ ul {
 		color: #00b2b2;
 		font-weight: 700;
 		float: right;
-		margin-right: 0em;
+		margin-right: .5em;
 	}
 
 	ul {
@@ -127,7 +126,7 @@ ul {
 	}
 
 	.kitty {
-		padding: 1em 1em 0 5em;
+		padding: ;
 	}
 
 	.charlie {
@@ -136,9 +135,9 @@ ul {
 		
 	.charlienav {
 		display: initial;
-		float: left;
+		float: right;
 		width: 4em;
-		padding-top: .5em;
+		margin-top: 1.25em;
 	}
 
 	footer {
