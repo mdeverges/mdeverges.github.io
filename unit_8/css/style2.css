@@ -7,6 +7,7 @@ body {
 	font-size:16px;
 }
 
+
 nav {
 	float:right;
 }
@@ -36,15 +37,6 @@ footer {
 	text-align: right;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
 h1 {
 	font-size: 2.5em;
 	font-weight: 700;
@@ -66,6 +58,15 @@ ul {
 	display: none;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 @media only screen and (max-width: 775px) {
 	main {
 		width: 90%;
@@ -84,22 +85,7 @@ ul {
 @media only screen and (max-width: 480px) {
 
 	header {
-		width: 90%;
-		margin: auto;
-	}
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-	}
-
-	#headerwrap {
 		background-color: #a7ffff;
-		float: right;
 	}
 
 	nav {
@@ -112,17 +98,28 @@ ul {
 	}
 
 	nav a {
-		margin-bottom: .5em;
-		margin-top: .25em;
-		height: .75em; 
+		display: block;
+		margin:.25em auto .5em;
 		color: #00b2b2;
 		font-weight: 700;
-		float: right;
-		margin-right: .5em;
 	}
 
 	ul {
 		display: none;
+	}
+	
+	footer {
+		font-size: 1em;
+		margin-right: 0;
+		margin-bottom: .5em;
+		padding: 0;
+		text-align: center;
+	}
+
+	.navsection{
+		width:50%;
+		float:left;
+		padding:.5em;
 	}
 
 	.kitty {
@@ -134,17 +131,8 @@ ul {
 	}
 		
 	.charlienav {
-		display: initial;
-		float: right;
+		display: block;
 		width: 4em;
-		margin-top: 1.25em;
-	}
-
-	footer {
-		font-size: 1em;
-		margin-right: 0;
-		margin-bottom: .5em;
-		padding: 0;
-		text-align: center;
+		margin: .5em auto;
 	}
 }
