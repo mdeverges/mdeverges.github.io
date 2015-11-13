@@ -182,18 +182,42 @@ ul {
 
 @media only screen and (max-width: 775px) {
 	main {
-		width: 90%;
+		width: 80%;
+	}
+
+	#list {
+		float: right;
+		padding-top: 0;
+		padding-right: .5em;
+		padding-left: 0;
+	}
+
+	.kitty {
+		float: none;
+		padding: 0;
+		width: 25%;
+		margin: 0;
 	}
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 530px) {
  	
  	h1 {
  		letter-spacing: .25em;
 		font-size: 5em;
 		line-height: 1em;
  	}
+
+ 	.kitty {
+ 		padding-top: 2em;
+ 	}
  }
+
+@media only screen and (max-width: 520px) {
+
+
+
+}
 
 @media only screen and (max-width: 480px) {
 
