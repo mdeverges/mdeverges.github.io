@@ -37,6 +37,8 @@ main {
 	margin-right: 0;
 }
 
+
+
 .kitty {
 	width: 30%;
 	float: left;
@@ -48,14 +50,17 @@ main {
 
 .blackdog {
 	width: 30%;
+	padding-top: 5%;
 }
 
 .glassescat {
 	width: 30%;
+	padding-top: 10%;
 }
 
 .hotdog {
 	width: 30%;
+	padding-top: 10%;
 }
 
 #services {
@@ -63,14 +68,22 @@ main {
 	text-align: left;
 }
 
+.serviceslist {
+	text-indent: 1em;
+}
+
 #servicesleft {
 	float: left;
-	width: 30%;
+	width: 25%;
+	margin-left: 2em;
+	padding-top: 5%;
 }
 
 #servicesright {
 	float: right;
-	width: 30%;
+	width: 25%;
+	margin-left: 2em;
+	padding-top: 5%;
 }
 
 #resources {
@@ -80,12 +93,16 @@ main {
 
 #resourcesleft {
 	float: left;
-	width: 30%;
+	width: 25%;
+	margin-left: 2em;
+	padding-top: 10%;
 }
 
 #resourcesright {
 	float: right;
-	width: 30%;
+	width: 25%;
+	margin-left: 2em;
+	padding-top: 10%;
 }
 
 #aboutus {
@@ -96,11 +113,14 @@ main {
 #aboutusleft {
 	float: left;
 	width: 30%;
+	margin-left: 2em;
 }
 
 #aboutusright {
 	float: right;
 	width: 30%;
+	margin-left: 1em;
+	margin-right: 2em;
 }
 
 #aboutuscontact {
