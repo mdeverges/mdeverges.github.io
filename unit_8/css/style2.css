@@ -25,6 +25,7 @@ main {
 	width: 80%;
 	text-align: center;
 	background-color: #00bfbf;
+	height: 500px;
 }
 
 #list {
@@ -45,6 +46,66 @@ main {
 	padding-right: 0;
 }
 
+.blackdog {
+	width: 30%;
+}
+
+.glassescat {
+	width: 30%;
+}
+
+.hotdog {
+	width: 30%;
+}
+
+#services {
+	font-size: .75em;
+	text-align: left;
+}
+
+#servicesleft {
+	float: left;
+	width: 30%;
+}
+
+#servicesright {
+	float: right;
+	width: 30%;
+}
+
+#resources {
+	font-size: .75em;
+	text-align: left;
+}
+
+#resourcesleft {
+	float: left;
+	width: 30%;
+}
+
+#resourcesright {
+	float: right;
+	width: 30%;
+}
+
+#aboutus {
+	font-size: 1em;
+	text-align: left;
+}
+
+#aboutusleft {
+	float: left;
+	width: 30%;
+}
+
+#aboutusright {
+	float: right;
+	width: 30%;
+}
+
+#aboutuscontact {
+	text-align: center;
+}
 
 footer {
 	font-size: 1em;
@@ -80,6 +141,10 @@ ul {
 	text-align: left;
 	padding: 0em;
 	margin: 0;
+}
+
+.contactimage {
+	width: 20%;
 }
 
 .charlienav {
@@ -154,7 +219,7 @@ ul {
 		
 	}
 
-	.charlie {
+	.contactimage {
 		display: none;
 	}
 		
