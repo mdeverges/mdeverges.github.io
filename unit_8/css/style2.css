@@ -1,10 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Oswald:400,700,300);* { margin:0; padding:0; box-sizing:border-box; }
 
+html {
+	height: 100%;
+}
+
 body {
 	background-color: #00b2b2;
 	color: #a7ffff;
 	font-family: 'Oswald', sans-serif;
 	font-size:16px;
+	height: 100%;
 }
 
 
@@ -21,43 +26,43 @@ nav a {
 }
 
 main {
+	height: 100%;
 	margin: auto;
-	width: 80%;
+	width: 90%;
 	text-align: center;
 	background-color: #00bfbf;
 	height: auto;
 }
 
-
 #list {
-	width: 50%;
+	width: 40%;
 	float: right;
 	margin: 0;
-	padding-top: 6em;
-	padding-left: 4em;
+	padding-top: 10%;
+	margin-left: 3em;
 	margin-right: 0;
+	padding-left: 2em;
 }
 
-
-
 .kitty {
-	width: 30%;
+	width: 350px;
 	float: left;
 	margin: 0;
-	margin-left: 20%;
+	margin-left: 15%;
 	margin-right: 0;
 	padding-right: 0;
 	padding-bottom: 2em;
+	padding-top: 1em;
 }
 
 .blackdog {
-	width: 30%;
-	padding-top: %;
+	width: 25%;
+	padding-top: 5%;
 }
 
 .glassescat {
 	width: 30%;
-	padding-top: %;
+	padding-top: 5%;
 }
 
 .hotdog {
@@ -78,7 +83,7 @@ main {
 	float: left;
 	width: 25%;
 	margin-left: 2em;
-	padding-top: %;
+	padding-top: 5%;
 	padding-bottom: 3em;
 }
 
@@ -86,7 +91,7 @@ main {
 	float: right;
 	width: 25%;
 	margin-left: 2em;
-	padding-top: %;
+	padding-top: 5%;
 	padding-bottom: 3em;
 }
 
@@ -99,7 +104,7 @@ main {
 	float: left;
 	width: 25%;
 	margin-left: 2em;
-	padding-top: %;
+	padding-top: 5%;
 	padding-bottom: 3em;
 }
 
@@ -107,7 +112,7 @@ main {
 	float: right;
 	width: 25%;
 	margin-left: 2em;
-	padding-top: %;
+	padding-top: 5%;
 	padding-bottom: 3em;
 }
 
@@ -121,6 +126,7 @@ main {
 	width: 30%;
 	margin-left: 2em;
 	padding-bottom: 3em;
+	padding-top: 5%;
 }
 
 #aboutusright {
@@ -129,6 +135,7 @@ main {
 	margin-left: 1em;
 	margin-right: 2em;
 	padding-bottom: 3em;
+	padding-top: 5%;
 }
 
 #aboutuscontact {
@@ -136,12 +143,13 @@ main {
 }
 
 footer {
+	position: absolute;
 	font-size: 1em;
 	margin-right: 1em;
 	margin-bottom: .5em;
 	padding-top: 4em; 
 	padding-left: 70%;
-	padding-bottom: 0;
+	padding-bottom: 20px;
 	font-family: 'Josefin Slab', serif;
 	color: #00fefe;
 	text-align: right;
@@ -158,7 +166,7 @@ h2 {
 	font-size: 2em;
 	font-weight: 400;
 	padding-bottom: 0em;
-	line-height: 2em;
+	line-height: 1.5em;
 }
 
 ul {
@@ -188,7 +196,384 @@ ul {
 	height: 0;
 }
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 1500px) {
+
+	main {
+		width: 95%;
+	}
+
+	.kitty {
+		width: 300px;
+		padding-left: 1em;
+	}
+
+	#list {
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+
+#servicesleft {
+	width: 30%;
+}
+
+#servicesright {
+	width: 30%;
+	padding-left: 3em;
+}
+
+}
+
+@media only screen and (max-width: 920px) {
+
+	.kitty {
+		float: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	#list {
+		float: none;
+		width: 100%;
+		padding-bottom: 2em;
+		padding-top: .5em;
+		margin: 0;
+	}
+
+	.serviceslist {
+		text-indent: .35em;
+		text-align: left;
+	}
+
+	ul {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+
+#servicesleft {
+	font-size: .85em;
+}
+
+#servicesright {
+	font-size: .85em;
+}
+}
+
+@media only screen and (max-width: 680px) {
+
+	header {
+		background-color: #007272;
+	}
+
+	.navsection {
+		float: left;
+		width: 50%;
+	}
+
+	nav a {
+		font-size: 2em;
+		line-height: .5em;
+		padding-top: .5em;
+		margin-top: 0;
+		font-weight: 700;
+		width: 50%;
+		padding-left: 1em;
+		margin-left: 0em;
+	}
+
+	.charlienav {
+		display: block;
+		float: right;
+		width: 150px;
+		margin: .5em auto;
+		margin-right: 1em;
+	}
+
+	main {
+		font-size: 2em;
+		background-color: #00b2b2;
+	}
+
+	h1 {
+		line-height: 1em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	#servicesleft {
+		float: none;
+		width: 90%;
+		text-align: center;
+		font-size: 1.5em;
+		margin: 0;
+		padding-bottom: 0em;
+		padding-top: 2em;
+	}
+
+	.blackdog {
+		width: 50%;
+		padding-left: 0em;
+		margin-left: 0em;
+	}
+
+	#servicesright {
+		float: none;
+		width: 90%;
+		text-align: center;
+		font-size: 1.5em;
+		margin: 0;
+		padding: 0em;
+	}
+
+	.serviceslist {
+		text-indent: 25%;
+		padding-bottom: .5em;
+	}
+
+	.contactimage {
+		display: none;
+	}
+
+
+	.kitty {
+		float: none;
+		padding: 0;
+		margin: 0;
+		margin-left: 0;
+		width: 50%;
+		padding-top: .5em;
+	}
+
+	#list {
+		width: 100%;
+		font-size: 1em;
+		float: none;
+		padding-left: 0;
+		background-color: #007272;
+		padding-top: 1.5em;
+	}
+
+	footer {
+		text-align: center;
+		width: 100%;
+		float: none;
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+
+
+	header {
+		background-color: #007272;
+	}
+
+	.navsection {
+		float: left;
+		width: 50%;
+	}
+
+	nav a {
+		font-size: 2em;
+		line-height: .5em;
+		padding-top: .5em;
+		margin-top: 0;
+		font-weight: 700;
+		width: 55%;
+		padding-left: 1em;
+		margin-left: 0em;
+	}
+
+	.charlienav {
+		display: block;
+		float: right;
+		width: 150px;
+		margin: .5em auto;
+		margin-right: 1em;
+	}
+
+	main {
+		font-size: 2em;
+		background-color: #00b2b2;
+	}
+
+	h1 {
+		line-height: 1.25em;
+	}
+
+	h2 {
+		font-size: 1.25em;
+	}
+
+	.contactimage {
+		display: none;
+	}
+
+
+	.kitty {
+		float: none;
+		padding: 0;
+		margin: 0;
+		margin-left: 0;
+		width: 50%;
+		padding-top: .5em;
+	}
+
+	#list {
+		width: 100%;
+		font-size: 1em;
+		float: none;
+		padding-left: 0;
+		background-color: #007272;
+		padding-top: 1.5em;
+	}
+
+	footer {
+		text-align: center;
+		width: 100%;
+		float: none;
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+
+	.navsection {
+		margin-top: 1em;
+	}
+
+	nav a {
+		width: 100%;
+		font-size: 3em;
+		line-height: .25em;
+}
+
+	.charlienav {
+		width: 175px;
+		padding-top: 2em;
+		margin-right: 3em;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width: 485px) {
+
+	nav a {
+		font-size: 2.5em;
+	}
+
+	.charlienav {
+		margin: 0;
+		padding: 0;
+		margin-right: 2em;
+		margin-top: .5em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+	#list {
+		font-size: .75em;
+	}
+
+	}
+
+@media only screen and (max-width: 420px) {
+
+	nav a { 
+		margin-left: .25em;
+		padding-left: .25em;
+	}
+
+	.charlienav {
+		width: 75%;
+		margin-left: 0em;
+		margin-right: 1em;
+	}
+
+	h1 {
+		font-size: 2.5em
+	}
+
+	h2 {
+		font-size: .75em;
+	}
+
+}
+
+@media only screen and (max-width: 370px) {
+
+	nav a {
+		margin-left: 0em;
+		padding-left: .25em;
+	}	
+
+	.charlienav {
+		padding-top: 1em;
+	}
+
+	#list {
+		font-size: .5em;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+
+nav a {
+		margin-left: 0em;
+		padding-left: .125em;
+	}
+
+.charlienav {
+	margin-right: .125em;
+}
+
+h1 {
+	font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+
+nav a {
+	font-size: 1.5em;
+	margin-left: .5em;
+	padding-bottom: 0em;
+}
+
+nav {
+	padding-bottom: 0em;
+}
+
+.charlienav {
+	width: 100px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-top: .5em;
+	padding-top: 0;
+}
+
+h2 {
+	font-size: .5em;
+}
+
+}
+
+
+}
+}
+
+
+
+/*@media only screen and (max-width: 775px) {
 	main {
 		width: 80%;
 		background-color: #00b2b2;
@@ -283,3 +668,4 @@ ul {
 	}
 }
 
+*/
