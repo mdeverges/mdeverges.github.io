@@ -36,22 +36,27 @@ main {
 
 #list {
 	width: 40%;
-	float: right;
+	float: ;
 	margin: 0;
-	padding-top: 10%;
-	margin-left: 3em;
+	padding-top: 2%;
+	margin-left: em;
 	margin-right: 0;
-	padding-left: 2em;
+	padding-left: em;
+}
+
+#mainlist {
+	text-align: center;
+	font-size: 1.5em;
 }
 
 .kitty {
-	width: 350px;
-	float: left;
+	width: 30%;
+	float: ;
 	margin: 0;
-	margin-left: 15%;
+	margin-left: %;
 	margin-right: 0;
 	padding-right: 0;
-	padding-bottom: 2em;
+	padding-bottom: em;
 	padding-top: 1em;
 }
 
