@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300|Josefin+Slab);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 html {
 	height: 100%;
@@ -45,7 +50,7 @@ main {
 #mainlist {
 	text-align: center;
 	font-size: 1.5em;
-	padding-bottom: .5em;
+	padding-bottom: 1em;
 }
 
 .kitty {
@@ -85,6 +90,7 @@ main {
 .serviceslist {
 	text-indent: 1em;
 	font-size: 1.25em;
+	list-style-position: inside;
 }
 
 #servicesleft {
@@ -175,13 +181,13 @@ h2 {
 }
 
 h3 {
-	font-size: 2em;
-	font-weight: 100;
+	font-size: 1.75em;
+	font-weight: 300;
 }
 
 h4 {
-	font-size: 1.5em;
-	font-weight: 100;
+	font-size: 1.25em;
+	font-weight: 300;
 	text-indent: .5em;
 }
 
