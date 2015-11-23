@@ -1,0 +1,486 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300|Josefin+Slab);
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #00b2b2;
+	color: #a7ffff;
+	font-family: 'Oswald', sans-serif;
+	font-size:16px;
+	height: 100%;
+}
+
+
+nav {
+	float:right;
+}
+
+nav a {
+	display: inline-block;
+	color: #00fefe;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.25em;
+	margin: 1em;
+}
+
+main {
+	height: 100%;
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	background-color: #00bfbf;
+	height: auto;
+}
+
+#list {
+	margin: 0;
+	padding-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+#mainlist {
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: .5em;
+}
+
+.kitty {
+	width: 40%;
+	margin: auto;
+	padding-top: 1em;
+}
+
+.blackdog {
+	width: 25%;
+	padding: 1em;
+	float: left;
+	margin: 0;
+	padding-top: 5%;
+}
+
+.glassescat {
+	width: 25%;
+	padding: 1em;
+	float: left;
+	margin: 0;
+	padding-top: 5%;
+}
+
+.hotdog {
+	width: 25%;
+	padding: em;
+	padding-top: 10%;
+	float: left;
+	margin: 0;
+}
+
+#services {
+	text-align: left;
+}
+
+.serviceslist {
+	text-indent: 1em;
+	font-size: 1.25em;
+}
+
+#servicesleft {
+	float: left;
+	width: 25%;
+	padding: 1em;
+	margin-left: 15%;
+	padding-top: 5%;
+}
+
+#servicesright {
+	float: left;
+	width: 25%;
+	padding: 1em;
+	margin: 0;
+	padding-top: 5%;
+}
+
+#resources {
+	text-align: left;
+}
+
+#resourcesleft {
+	float: left;
+	width: 25%;
+	padding: 1em;
+	margin-left: 15%;
+	padding-top: 5%;
+}
+
+#resourcesright {
+	float: left;
+	width: 25%;
+	padding: 1em;
+	padding-top: 5%;
+	margin: 0;
+}
+
+#aboutus {
+	text-align: left;
+}
+
+#aboutusleft {
+	float: left;
+	width: 30%;
+	margin-left: 8%;
+	padding: 1em;
+	padding-top: 5%;
+}
+
+#aboutusright {
+	float: left;
+	width: 30%;
+	padding: 1em;
+	margin: 0;
+	padding-top: 5%;
+}
+
+#aboutuscontact {
+	text-align: center;
+}
+
+footer {
+	position: absolute;
+	font-size: 1em;
+	margin-right: 1em;
+	margin-bottom: .5em;
+	padding-top: 4em; 
+	padding-left: 70%;
+	padding-bottom: 20px;
+	font-family: 'Josefin Slab', serif;
+	color: #00fefe;
+	text-align: right;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-weight: 700;
+	letter-spacing: .125em;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 400;
+	padding-bottom: 0em;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 100;
+}
+
+h4 {
+	font-size: 1.5em;
+	font-weight: 100;
+	text-indent: .5em;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 1.5em;
+	font-size: 1.25em;
+	font-weight: 300;
+	text-align: left;
+	padding: 0em;
+	margin: 0;
+}
+
+#servicesheader {
+	text-align: center;
+}
+
+#resourcesheader {
+	text-align: center;
+}
+
+#aboutusheader {
+	text-align: center;
+}
+
+.contactimage {
+	width: 15%;
+}
+
+.charlienav {
+	display: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+@media only screen and (max-width: 720px) {
+
+	main {
+		width: 95%;
+	}
+
+}
+
+@media only screen and (max-width: 685px) {
+
+	header {
+		background-color: #007272;
+	}
+
+	.navsection {
+		float: left;
+		width: 50%;
+	}
+
+	nav a {
+		font-size: 2em;
+		line-height: .5em;
+		padding-top: 10%;
+		margin-top: 0;
+		font-weight: 700;
+		width: 100%;
+		padding-left: .5em;
+		margin-left: 0em;
+	}
+
+	.charlienav {
+		display: block;
+		float: right;
+		width: 50%;
+		padding: 0;
+		margin: auto;
+		padding-right: .5em;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	main {
+		background-color: #00b2b2;
+		width: 100%;
+		padding: 0;
+	}
+
+	#homeheader {
+		font-size: 3em;
+		margin-top: .5em;
+	}
+
+	h1 {
+		line-height: 1em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	h4 {
+		font-size: .75em;
+	}
+
+	#servicesheader {
+		font-size: 2em;
+		margin-top: .5em;
+	}
+
+	#servicesleft {
+		float: none;
+		width: 90%;
+		text-align: left;
+		font-size: 3em;
+		margin: auto;
+		padding: auto;
+	}
+
+	#servicesright {
+		float: none;
+		width: 90%;
+		text-align: left;
+		font-size: 3em;
+		margin: auto;
+		padding: auto;
+	}
+
+	#services {
+		text-align: center;
+	}
+
+	.serviceslist {
+		font-size: .75em;
+	}
+
+	h3 {
+		font-size: .75em;
+	}
+
+	.blackdog {
+		width: 60%;
+		padding-left: 0em;
+		margin-left: 25%;
+		margin-top: 1em;
+	}
+
+	#aboutusheader {
+		font-size: 2em;
+		margin-top: .5em;
+	}
+
+	#aboutusleft {
+		float: none;
+		width: 90%;
+		font-size: 1.5em;
+		text-align: center;
+		margin: auto;
+		padding: auto;
+	}
+
+	#aboutusright {
+		float: none;
+		width: 90%;
+		font-size: 1.5em;
+		text-align: center;
+		margin: auto;
+		padding: auto;
+	}
+
+	.hotdog {
+		margin-left: 20%;
+		width: 60%;
+	}
+
+	#resourcesheader {
+		font-size: 2em;
+		margin-top: .5em;
+	}
+
+	#resourcesleft {
+		float: none;
+		width: 90%;
+		text-align: left;
+		font-size: 3em;
+		margin: auto;
+		padding: auto;
+	}
+
+	#resourcesright {
+		float: none;
+		width: 90%;
+		text-align: left;
+		font-size: 3em;
+		margin: auto;
+		padding: auto;
+	}
+
+	#resourceslist {
+		font-size: .75em;
+	}
+
+	.glassescat {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	.contactimage {
+		display: none;
+	}
+
+
+	.kitty {
+		float: none;
+		padding: 0;
+		margin: 0;
+		margin-left: 0;
+		width: 50%;
+		padding-top: .5em;
+	}
+
+	#list {
+		width: 100%;
+		font-size: 1em;
+		float: none;
+		padding-left: 0;
+		background-color: #007272;
+		padding-top: 1em;
+	}
+
+	footer {
+		text-align: center;
+		width: 100%;
+		float: none;
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	#homeheader {
+		font-size: 2em;
+	}
+
+	#resourcesheader {
+		font-size: 1.5em;
+	}
+
+	#servicesheader {
+		font-size: 1.5em;
+	}
+
+	#aboutusheader {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	#services {
+		font-size: .75em;
+	}
+
+	#resources {
+		font-size: .75em;
+	}
+
+	#aboutus {
+		font-size: .75em;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	#homeheader {
+		font-size: 1.75em;
+	}
+
+}
+
+@media only screen and (max-width: 350px) {
+
+	#homeheader {
+		font-size: 1.5em;
+	}
+
+	#servicesheader {
+		font-size: 1.25em;
+	}
+
+	#resourcesheader {
+		font-size: 1.25em;
+	}
+
+	#aboutusheader {
+		font-size: 1.25em;
+	}
+
+}
