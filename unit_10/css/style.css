@@ -17,7 +17,6 @@ body {
 	height: 100%;
 }
 
-
 nav {
 	float:right;
 }
@@ -60,7 +59,21 @@ main {
 }
 
 .blackdog {
-	width: 25%;
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+#servicesimage {
+	width: 35%;
+	padding: 1em;
+	float: left;
+	margin: 0;
+	padding-top: 5%;
+}
+
+#resourcesimage {
+	width: 35%;
 	padding: 1em;
 	float: left;
 	margin: 0;
@@ -68,19 +81,23 @@ main {
 }
 
 .glassescat {
-	width: 25%;
-	padding: 1em;
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+#aboutusimage {
+	width: 30%;
+	padding: 0;
 	float: left;
 	margin: 0;
 	padding-top: 5%;
 }
 
 .hotdog {
-	width: 25%;
-	padding: em;
-	padding-top: 10%;
-	float: left;
-	margin: 0;
+	display: block;
+	margin: auto;
+	width: 80%;
 }
 
 #services {
@@ -262,10 +279,9 @@ ul {
 
 	.charlienav {
 		display: block;
-		float: right;
+		margin-left: auto;
 		width: 50%;
 		padding: 0;
-		margin: auto;
 		padding-right: .5em;
 		padding-top: 10%;
 		padding-bottom: 10%;
@@ -346,7 +362,7 @@ ul {
 		float: none;
 		width: 90%;
 		font-size: 1.5em;
-		text-align: center;
+		text-align: justify;
 		margin: auto;
 		padding: auto;
 	}
@@ -355,7 +371,7 @@ ul {
 		float: none;
 		width: 90%;
 		font-size: 1.5em;
-		text-align: center;
+		text-align: justify;
 		margin: auto;
 		padding: auto;
 	}
@@ -400,7 +416,6 @@ ul {
 	.contactimage {
 		display: none;
 	}
-
 
 	.kitty {
 		float: none;
@@ -461,12 +476,61 @@ ul {
 		font-size: .75em;
 	}
 
+	.charlienav {
+		margin-top: 12%;
+	}
+
 }
 
 @media only screen and (max-width: 400px) {
 
 	#homeheader {
 		font-size: 1.75em;
+	}
+
+	#servicesleft {
+		width: 100%;
+		padding: 20px;
+	}
+
+	#servicesright {
+		width: 100%;
+		padding: 20px;
+	}
+
+	#servicesimage {
+		width: 100%;
+		padding: 20px;
+	}
+
+	#resourcesleft {
+		width: 100%;
+		padding: 20px;
+	}
+
+	#resourcesright {
+		width: 100%;
+		padding: 20px;
+	}
+
+	#resourcesimage {
+		width: 100%;
+		padding: 20px;
+	}
+
+	#aboutusleft {
+		width: 100%;
+		padding: 20px;
+	}
+
+	#aboutusright {
+		width: 100%;
+		padding: 20px;
+	}
+
+	#aboutusimage {
+		width: 100%;
+		padding: 20px;
 	}
 
 }
@@ -488,5 +552,6 @@ ul {
 	#aboutusheader {
 		font-size: 1.25em;
 	}
+
 
 }
