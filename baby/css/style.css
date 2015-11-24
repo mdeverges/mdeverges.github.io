@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint|Lemon|Josefin+Sans:400,700italic);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #d2dddf;
+	color: #f395ad;
+	font-size:16px;
+	height: 100%;
+}
+
+nav {
+	float: right;
+	width: 100%;
+	background-color: #b36e80;
+}
+
+nav a {
+	display: inline-block;
+	color: #faccd7;
+	font-family: 'Finger Paint';
+	font-size: 1.5em;
+	margin: .5em;
+}
+
+.carriage {
+	display: block;
+	width: 20%;
+	padding: 1em;
+}
+
+.links {
+	float: right; 
+}
+
+main {
+	margin-bottom: 3em;
+}
+
+.header {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Lemon', cursive;
+}
+
+.subheader {
+	font-size: 1em;
+	font-family: 'Lemon', cursive;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+h1 {
+	line-height: 1.5em;
+}
+
+#post {
+	width: 95%;
+	background-color: #e0b7c1;
+	color: #8a9192;
+	padding: .5em;
+	margin: auto;
+	font-family: 'Josefin Sans', sans-serif;
+	height: auto;
+}
+
+.sheshere {
+	width: 45%;
+	float: left;
+	margin: 1em;
+	padding: 0;
+}
+
+.balloons {
+	width: 15%;
+	float: left;
+	margin: 0;
+	margin-top: 3em;
+}
+
+.firstphoto {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 35%;
+}
+
+.newborn {
+	display: block;
+	width: 90%;
+	margin: 0;
+	padding: 0;
+}
+
+.footerimage {
+	width: 5%;
+}
+
+footer {
+	font-family: 'Finger Paint', cursive;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
