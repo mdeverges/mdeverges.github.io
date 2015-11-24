@@ -25,11 +25,32 @@ nav a {
 	font-family: 'Finger Paint';
 	font-size: 1.5em;
 	margin: .5em;
+	margin-bottom: 5%;
+	padding-bottom: 0;
+}
+
+.navimage {
+	width: 20%;
+	float: right;
+}
+
+.giraffe {
+	display: block;
+	width: 40%;
+	margin-top: 1em;
+	margin-left: 30%;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.logo {
+	float: left;
+	width: 75%;
 }
 
 .carriage {
 	display: block;
-	width: 20%;
+	width: 30%;
 	padding: 1em;
 }
 
