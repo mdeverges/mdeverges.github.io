@@ -117,6 +117,13 @@ h1 {
 	padding: 0;
 }
 
+.images {
+	width: 50%;
+	display: block;
+	margin-left: 25%;
+	padding: .5em;
+}
+
 .footerimage {
 	width: 5%;
 }
