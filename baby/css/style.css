@@ -131,6 +131,11 @@ h1 {
 	padding: .5em;
 }
 
+.movies {
+	position: center;
+	margin-left: 35%;
+}
+
 .footerimage {
 	width: 5%;
 }
