@@ -171,4 +171,16 @@ footer {
 		font-size: 3em;
 	}
 
+	.images {
+		width: 70%;
+		display: block;
+		margin-left: 15%;
+		padding: .5em;
+	}
+
+	.movies {
+		position: center;
+		margin-left: 25%;
+	}
+
 }
