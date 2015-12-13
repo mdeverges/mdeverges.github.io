@@ -184,3 +184,29 @@ footer {
 	}
 
 }
+
+@media only screen and (max-width: 450px) {
+
+	h1 {
+		font-size: 1em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	#post {
+		width: 100%;
+	}
+
+	.sheshere {
+		font-size: 2em;
+		text-align: left;
+		margin: auto;
+	}
+
+
+
+
+
+}	
