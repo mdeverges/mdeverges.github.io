@@ -221,5 +221,9 @@ footer {
 		margin: .25em;
 	}
 
+	.balloons {
+		width: 40%;
+		margin: 0;
+	}
 
 }
