@@ -150,8 +150,8 @@ footer {
 		line-height: 1.25em;
 	}
 
-	h2 {
-		font-size: 3em;
+	.subheader {
+		font-size: 1em;
 	}
 
 	#post {
@@ -168,6 +168,7 @@ footer {
 
 	.balloons {
 		width: 30%;
+		margin-top: 4em;
 	}
 
 	.newborn {
@@ -195,8 +196,8 @@ footer {
 		font-size: 1em;
 	}
 
-	h2 {
-		font-size: 1.5em;
+	.subheader {
+		font-size: .5em;
 	}
 
 	#post {
@@ -209,21 +210,43 @@ footer {
 		margin: auto;
 	}
 
+	.balloons {
+		margin: .25em;
+		margin-top: 2em;
+	}
+
 }	
 
 @media only screen and (max-width: 420px) {
+	
+	nav a {
+		display: block;
+		font-size: 1.75em;
+		text-align: center;
+	}
+
+	.links {
+		width: 100%;
+	}
+
+	.carriage {
+		margin-left: 50%;
+		margin-top: .25em;
+	}
+
 	h1 {
 		font-size: 
 	}
 
 	.sheshere {
-		font-size: 
+		font-size: 1.5em;
+		text-align: left;
 		margin: .25em;
 	}
 
 	.balloons {
 		width: 40%;
-		margin: 0;
+		margin: .5em;
 	}
 
 }
