@@ -122,11 +122,6 @@ h1 {
 	padding: .5em;
 }
 
-.movies {
-	position: center;
-	margin-left: 35%;
-}
-
 .footerimage {
 	width: 5%;
 }
@@ -160,7 +155,7 @@ footer {
 	}
 
 	#post {
-		width: 100%;
+		width: 90%;
 	}
 
 	.sheshere {
@@ -171,16 +166,25 @@ footer {
 		font-size: 3em;
 	}
 
+	.balloons {
+		width: 30%;
+	}
+
+	.newborn {
+		width: 90%;
+	}
+
 	.images {
-		width: 70%;
+		width: 80%;
 		display: block;
-		margin-left: 15%;
+		margin: auto;
 		padding: .5em;
 	}
 
-	.movies {
-		position: center;
-		margin-left: 25%;
+	.photos {
+		width: 90%;
+		margin: auto;
+		padding: 0;
 	}
 
 }
@@ -196,7 +200,7 @@ footer {
 	}
 
 	#post {
-		width: 100%;
+		width: 90%;
 	}
 
 	.sheshere {
@@ -204,6 +208,7 @@ footer {
 		text-align: left;
 		margin: auto;
 	}
+
 }	
 
 @media only screen and (max-width: 420px) {
