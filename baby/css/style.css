@@ -204,9 +204,17 @@ footer {
 		text-align: left;
 		margin: auto;
 	}
-
-
-
-
-
 }	
+
+@media only screen and (max-width: 420px) {
+	h1 {
+		font-size: 
+	}
+
+	.sheshere {
+		font-size: 
+		margin: .25em;
+	}
+
+
+}
