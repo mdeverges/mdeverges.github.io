@@ -111,15 +111,15 @@ h1 {
 
 .photos {
 	background-color: #e0b7c1;
-	width: 90%;
+	width: 95%;
 	padding: 1em;
 	margin: 2em;
 }
 
 .images {
-	width: 50%;
+	width: 60%;
 	display: block;
-	margin-left: 25%;
+	margin-left: 20%;
 	padding: .5em;
 }
 
@@ -139,22 +139,6 @@ footer {
 	content: " ";
 	clear: both;
 	height: 0;
-}
-
-/*@media only screen and (max-width: 1200px) {
-
-h2 {
-	font-size: 2em;
-}
-
-#post {
-	font-size: 3em;
-}
-
-.balloons {
-	width: ;
-}*/
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -213,6 +197,7 @@ h2 {
 		display: block;
 		font-size: 1.75em;
 		text-align: center;
+		margin: 0;
 	}
 
 	.links {
@@ -253,6 +238,10 @@ h2 {
 
 	h1 {
 		font-size: 
+	}
+
+	h2 {
+		font-size: 3em;
 	}
 
 	.sheshere {
