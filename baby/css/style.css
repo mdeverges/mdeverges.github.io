@@ -247,12 +247,13 @@ footer {
 	.sheshere {
 		font-size: 1.5em;
 		text-align: left;
-		margin: .25em;
+		line-height: 1em;
+		margin-right: .25em;
 	}
 
 	.balloons {
 		width: 40%;
-		margin: .5em;
+		margin: .25em;
 	}
 
 }
