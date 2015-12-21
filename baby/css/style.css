@@ -78,11 +78,12 @@ h1 {
 	margin: auto;
 	font-family: 'Josefin Sans', sans-serif;
 	height: auto;
+	font-size: 1.5em;
 }
 
 .sheshere {
 	width: 85%;
-	margin: 2em;
+	margin: 1em;
 	margin-left: 1em;
 }
 
@@ -140,6 +141,22 @@ footer {
 	height: 0;
 }
 
+/*@media only screen and (max-width: 1200px) {
+
+h2 {
+	font-size: 2em;
+}
+
+#post {
+	font-size: 3em;
+}
+
+.balloons {
+	width: ;
+}*/
+
+}
+
 @media only screen and (max-width: 700px) {
 
 	.header {
@@ -183,7 +200,7 @@ footer {
 	}
 
 	.photos {
-		width: 90%;
+		width: 95%;
 		margin: auto;
 		padding: 0;
 	}
@@ -203,7 +220,7 @@ footer {
 	}
 
 	.carriage {
-		margin-left: 50%;
+		margin-left: 55%;
 		margin-top: .25em;
 	}
 
