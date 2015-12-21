@@ -42,7 +42,7 @@ nav a {
 
 .carriage {
 	display: block;
-	width: 30%;
+	width: 15%;
 }
 
 .links {
@@ -206,7 +206,7 @@ footer {
 	}
 
 	.carriage {
-		margin-left: 55%;
+		margin-left: 60%;
 		margin-top: .25em;
 	}
 
